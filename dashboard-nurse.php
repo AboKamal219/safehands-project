@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/dashboard-nurse.css">    
+    <link rel="stylesheet" href="assets/css/dashboard-nurse.css">
+    <link rel="icon" href="assets/images/icon.png">
+   
 </head>
 <body>
     <!-- Header -->

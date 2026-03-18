@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/dashboard-parient.css">
+    <link rel="icon" href="assets/images/icon.png">
 </head>
 <body>
     <!-- Header -->
@@ -464,34 +465,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <!-- Medical Summary -->
-                <div class="sidebar-card">
-                    <h3 class="card-title">
-                        <i class="fas fa-file-medical"></i>
-                        الملخص الطبي
-                    </h3>
-                    
-                    <div style="margin-bottom: 15px;">
-                        <div style="font-weight: 600; margin-bottom: 5px;">فصيلة الدم</div>
-                        <div style="color: var(--primary); font-size: 20px; font-weight: 700;">O+</div>
-                    </div>
-                    
-                    <div style="margin-bottom: 15px;">
-                        <div style="font-weight: 600; margin-bottom: 5px;">الحساسية</div>
-                        <div style="color: var(--gray);">حساسية بنسلين - حساسية صدرية</div>
-                    </div>
-                    
-                    <div>
-                        <div style="font-weight: 600; margin-bottom: 5px;">الأمراض المزمنة</div>
-                        <div style="color: var(--gray);">ضغط الدم المرتفع - سكري نوع 2</div>
-                    </div>
-                    
-                    <button type="button" class="btn btn-outline btn-sm" style="width: 100%; margin-top: 15px;" onclick="event.preventDefault(); viewFullMedicalHistory();">
-                        <i class="fas fa-arrow-left"></i>
-                        عرض الملف الطبي الكامل
-                    </button>
                 </div>
             </div>
         </div>

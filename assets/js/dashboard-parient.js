@@ -721,48 +721,47 @@ const footerContent = `<button class="btn btn-primary" onclick="closeModal()">إ
 
 openModal('سجل الزيارات', bodyContent, footerContent);
 };
-window.viewFullMedicalHistory = function() {
-const bodyContent = `
-    <div style="text-align: center; margin-bottom: 20px;">
-        <i class="fas fa-file-medical" style="font-size: 50px; color: var(--primary); margin-bottom: 15px;"></i>
-        <h3>الملف الطبي الكامل</h3>
-    </div>
+// const bodyContent = `
+//     <div style="text-align: center; margin-bottom: 20px;">
+//         <i class="fas fa-file-medical" style="font-size: 50px; color: var(--primary); margin-bottom: 15px;"></i>
+//         <h3>الملف الطبي الكامل</h3>
+//     </div>
     
-    <div class="info-row">
-        <span>فصيلة الدم:</span>
-        <span style="font-weight: 600; color: var(--primary);">O+</span>
-    </div>
-    <div class="info-row">
-        <span>الوزن:</span>
-        <span>85 كجم</span>
-    </div>
-    <div class="info-row">
-        <span>الطول:</span>
-        <span>175 سم</span>
-    </div>
+//     <div class="info-row">
+//         <span>فصيلة الدم:</span>
+//         <span style="font-weight: 600; color: var(--primary);">O+</span>
+//     </div>
+//     <div class="info-row">
+//         <span>الوزن:</span>
+//         <span>85 كجم</span>
+//     </div>
+//     <div class="info-row">
+//         <span>الطول:</span>
+//         <span>175 سم</span>
+//     </div>
     
-    <div style="margin-top: 20px;">
-        <h4 style="margin-bottom: 10px;">الأمراض المزمنة</h4>
-        <p>ضغط الدم المرتفع - سكري نوع 2</p>
-    </div>
+//     <div style="margin-top: 20px;">
+//         <h4 style="margin-bottom: 10px;">الأمراض المزمنة</h4>
+//         <p>ضغط الدم المرتفع - سكري نوع 2</p>
+//     </div>
     
-    <div style="margin-top: 20px;">
-        <h4 style="margin-bottom: 10px;">الحساسية</h4>
-        <p>حساسية بنسلين - حساسية صدرية</p>
-    </div>
+//     <div style="margin-top: 20px;">
+//         <h4 style="margin-bottom: 10px;">الحساسية</h4>
+//         <p>حساسية بنسلين - حساسية صدرية</p>
+//     </div>
     
-    <div style="margin-top: 20px;">
-        <h4 style="margin-bottom: 10px;">الأدوية المنتظمة</h4>
-        <p>أملوديبين 5 مجم - ميتفورمين 500 مجم</p>
-    </div>
-`;
+//     <div style="margin-top: 20px;">
+//         <h4 style="margin-bottom: 10px;">الأدوية المنتظمة</h4>
+//         <p>أملوديبين 5 مجم - ميتفورمين 500 مجم</p>
+//     </div>
+// `;
 
-const footerContent = `
-    <button class="btn btn-primary" onclick="closeModal()">
-        <i class="fas fa-check"></i>
-        تم
-    </button>
-`;
+// const footerContent = `
+//     <button class="btn btn-primary" onclick="closeModal()">
+//         <i class="fas fa-check"></i>
+//         تم
+//     </button>
+// `;
 
-openModal('الملف الطبي', bodyContent, footerContent);
-};
+// openModal('الملف الطبي', bodyContent, footerContent);
+// };
